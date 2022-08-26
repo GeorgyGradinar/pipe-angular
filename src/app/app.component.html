@@ -1,0 +1,2 @@
+<p>Введите число</p><input [(ngModel)]="digit" >
+<p *ngIf="digit">{{digit|reduceNumber:2}}</p>
